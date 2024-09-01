@@ -1,16 +1,45 @@
-# nameinpdf
+PDF Generator App
+This Flutter application allows users to input text, select an image, and generate a PDF document with the embedded image and the text. The generated PDF can then be downloaded and saved locally.
 
-A new Flutter project.
+Features
+Text Input: Users can enter custom text to be embedded in the PDF.
+Image Selection: Users can choose an image from their gallery or take a new picture.
+PDF Generation: The app generates a PDF document with the selected image and input text.
+Download and Save: Users can download the generated PDF to their device.
+Screenshots
 
-## Getting Started
+Getting Started
+Prerequisites
+Make sure you have the following installed:
 
-This project is a starting point for a Flutter application.
+Flutter SDK: Install Flutter
+A device or emulator to run the application
+Installation
+Clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
+bash
+Copy code
+git clone https://github.com/yourusername/pdf_generator_app.git
+cd pdf_generator_app
+Install dependencies:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+bash
+Copy code
+flutter pub get
+Run the app:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+bash
+Copy code
+flutter run
+Usage
+Enter Text: On the main screen, enter the text you want to include in the PDF.
+Select an Image: Click the "Select Image" button to choose an image from your gallery or take a new photo.
+Generate PDF: Press the "Generate PDF" button to create the PDF with the embedded image and text.
+Download PDF: After the PDF is generated, click the "Download PDF" button to save the file to your device.
+Dependencies
+The app relies on the following packages:
+
+flutter_image_picker: To allow users to select or capture images.
+pdf: To create and manage PDF documents.
+path_provider: To access the device's file system.
+open_file: To open the generated PDF file.
