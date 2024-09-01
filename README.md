@@ -11,10 +11,10 @@ This Flutter application allows users to input text, select an image, and genera
 
 ## Screenshots
 
-![Screenshot 1](assets/screenshot1.jpg)
-![Screenshot 2](assets/screenshot2.jpg)
-![Screenshot 3](assets/screenshot3.jpg)
-![Screenshot 4](assets/screenshot4.jpg)
+![Screenshot 1](assets/screenshot1.jpg){ width=50% }
+![Screenshot 2](assets/screenshot2.jpg){ width=50% }
+![Screenshot 3](assets/screenshot3.jpg){ width=50% }
+![Screenshot 4](assets/screenshot4.jpg){ width=50% }
 
 ## Getting Started
 
